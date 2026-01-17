@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Character from "./character.jsx";
+import Character from "./Character.jsx";
 
 import "./App.css";
 
