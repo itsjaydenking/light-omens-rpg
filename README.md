@@ -1,68 +1,75 @@
-# Light Omens RPG — Digital‑First Ashcan
+# Light Omens RPG
 
-WELCOME TO LIGHT OMENS  
-The world trembles under the shadows of the Light Eaters. They consume all forms of light, from the rays of sunshine to the happiness we experience. Knowledge is a currency traded through the language of diplomacy or the art of combat.  
-Few withstand the chaotic backdrop of ancient magic and intricate machinery. Even fewer have the power to command these formidable forces. The call now beckons you to dispel the encroaching night and reclaim the stolen light. Will you venture into the forgotten echoes of a time long past?
+### Digital-First Ashcan Edition
 
----
+![Status](https://img.shields.io/badge/status-ashcan%20playtest-6b7280)
+![Platform](https://img.shields.io/badge/platform-web%20first-1f2937)
+![Genre](https://img.shields.io/badge/genre-grim%20fantasy-3b0a0a)
+![Built%20With](https://img.shields.io/badge/built%20with-React%20%2B%20Vite-0ea5e9)
 
-## Welcome to Light Omens
+> The world trembles under the hunger of the Light Eaters.  
+> They consume not only fire and sun, but joy, hope, and certainty.  
+> Knowledge is currency. Power is never free.
+>
+> You are called to act where others hesitate.  
+> Will you reclaim the stolen light, or decide it was never meant to be saved?
 
-Light Omens is a tabletop roleplaying game about hope under pressure, power with a cost, and the choices people make when the light they rely on can also destroy them. This ashcan edition presents the core ideas, rules, and a starter scenario so you can play, test, and shape the game at your table—and in your browser.
-
-This repository contains the digital-first experience of Light Omens:
-
-- A modern web app for reading rules, building characters, tracking truths, and running sessions.
-- A lightweight auth gate for early access playtesting.
-- A deployable static site for GitHub Pages.
-
----
-
-## What is Light Omens?
-
-Light Omens is a narrative-forward fantasy roleplaying game where players take on the roles of Omen Seekers—individuals who venture into danger to uncover lost truths, confront spreading darkness, and decide how the world’s fragile light will be used. You play in a world where hope is real but never free, where power can heal or corrupt, and where even small choices can leave lasting marks.
+🌐 **Playtest and explore:**  
+https://itsjaydenking.github.io/light-omens-rpg/
 
 ---
 
-## You Play Seekers…
+## What This Is
 
-Seekers are not rulers, chosen saviors, or conquerors by default. They are people who step forward when others cannot:
+**Light Omens** is a narrative-forward tabletop roleplaying game about hope under pressure, power with consequences, and the choices people make when light itself can harm the world.
+
+This repository contains the **digital-first ashcan edition** of Light Omens. It serves two connected purposes:
+
+- A playable early version of the RPG’s rules, setting, and themes
+- A modern web platform built to support reading, character tools, and future play features
+
+The project is designed for playtesting, iteration, and long-term growth.
+
+---
+
+## The Game at a Glance
+
+Light Omens is a grim fantasy RPG where players take on the role of **Seekers**. These are people who step forward when institutions fail and certainty collapses.
+
+You play in a world where:
+
+- Hope exists, but must be chosen
+- Power can heal, protect, or destroy
+- Every solution creates new problems
+- Refusing to act is still a decision
+
+The game emphasizes meaningful consequences, shared narrative authority, and moral tension over optimization or power fantasy.
+
+---
+
+## You Play Seekers
+
+Seekers are not destined heroes or crowned rulers.
+
+They are:
 
 - Explorers of forgotten places
 - Protectors of vulnerable communities
-- Mediators between rival factions
-- Bearers of the Grim Light, a force that offers miracles at a terrible price
+- Negotiators between rival factions
+- Bearers of the **Grim Light**, a force capable of miracles and ruin
 
-Seekers matter in the world because they act. The world does not change on its own.
-
----
-
-## What You Need to Play
-
-Tabletop (at the table or online):
-
-- 2 or more players (including one GM)
-- Several six-sided dice (d6)
-- A few twelve-sided dice (d12)
-- Character sheets (paper or digital)
-- Paper or digital notes
-- About 2–4 hours for a session
-- A willingness to make difficult choices together
-
-Digital:
-
-- A modern browser
-- Access to the Light Omens web app (this repo)
-- Optional: shared voice/video, shared docs, VTT of choice
+Seekers matter because they act. The world does not change on its own.
 
 ---
 
 ## Light, Shadow, and Choice
 
-At the heart of Light Omens is a simple tension: light and shadow are not opposites; they are entangled.
+At the heart of Light Omens is a simple truth:
 
-- Light: hope, clarity, protection, possibility
-- Shadow: fear, loss, corruption, the cost of survival
+**Light and shadow are entangled.**
+
+- Light represents hope, clarity, protection, and possibility
+- Shadow represents fear, loss, corruption, and the cost of survival
 
 Neither can be erased. Every meaningful choice exists between them.
 
@@ -70,167 +77,99 @@ Neither can be erased. Every meaningful choice exists between them.
 
 ## The Grim Light
 
-The Grim Light is the world’s defining force. It can:
+The Grim Light is the defining force of the setting. It can:
 
 - Heal the dying
 - Power ancient machines
 - Hold back monstrous threats
-- Illuminate hidden truths
+- Reveal hidden truths
 
-But every use of the Grim Light leaves a mark. It demands sacrifice, invites escalation, and reshapes the world in ways that cannot always be undone. Using the light is never neutral; refusing it has consequences too.
+Every use leaves a mark.
 
----
-
-## Tone: Hopepunk ↔ Grimdark
-
-Light Omens supports a range of emotional tones, from defiant hope to tragic endurance. Think of the tone as a dial:
-
-- Hopepunk: communities can be saved; sacrifice matters; small victories inspire real change.
-- Grimdark: survival is costly; power corrupts easily; hope must be fought for every day.
-
-Before play, pick a spot on this spectrum together. Revisit that choice as the story evolves.
+The Grim Light demands sacrifice, escalates conflict, and reshapes the world in irreversible ways. Using it is never neutral. Refusing it is not without consequence.
 
 ---
 
-## The World at a Glance
+## Tone and Play Style
 
-You don’t need a map or a timeline to begin. Keep these truths in mind:
+Light Omens supports a range of emotional tones.
 
-- The past is not buried. Ruins, relics, and old mistakes still shape the present.
-- Power has consequences. Every solution creates new problems.
-- Factions need you. No group can survive alone, and none are fully right.
-- Hope is an action. It exists only when someone chooses to act on it.
+- **Hopepunk:** communities can be saved, sacrifice matters, small victories inspire change
+- **Grimdark:** survival is costly, power corrupts easily, hope must be fought for every day
 
-Everything else is discovered in play.
+Before play, decide where your table sits and revisit that choice as the story evolves.
 
 ---
 
-## Playing as a Seeker
-
-Seekers move when the world hesitates. They are not born into power, crowned by prophecy, or elevated above consequence. They act because someone must, and because inaction is its own kind of choice.
-
-### What Seekers Do
-
-Step into danger, uncertainty, and moral complexity to confront problems others cannot—or will not—face. Explore forgotten places, negotiate between hostile factions, protect fragile communities, and wield forces that are as dangerous as they are necessary.
-
-### Who Seekers Are
-
-Seekers might be:
-
-- Scouts, scholars, or scavengers
-- Wardens, diplomats, or troubleshooters
-- Outcasts, veterans, or survivors
-- Ordinary people forced into extraordinary circumstances
-
-What unites them is agency: Seekers choose to act.
-
-### Why Seekers Matter
-
-The world is shaped by lingering failures and fragile systems. Institutions are slow; factions are divided. Seekers matter because they:
-
-- Go where others cannot
-- Make decisions no council can agree on
-- Accept the cost of using—or refusing—the Grim Light
-- Leave visible marks on the world through their choices
-
-If Seekers stop acting, the world does not stabilize; it decays.
-
-### Why Seekers Are Not Rulers or Heroes by Default
-
-Seekers are not automatically in charge. Authority must be earned, negotiated, or taken—and always at risk. Likewise, they are not guaranteed heroes. Their actions can:
-
-- Escalate conflicts
-- Empower the wrong people
-- Create new threats while ending old ones
-
-Intent does not erase outcome.
-
-### Your Path as a Seeker
-
-Most stories revolve around core pursuits—pressures that shape play, not quests to tick off:
-
-- Discover Lost Knowledge: forgotten histories, buried truths, dangerous technologies, secrets worth killing for.
-- Protect a Home: defend places, people, and ways of life that cannot endure unaided.
-- Forge Alliances: build bridges across rival factions and distrustful communities.
-- Master the Grim Light: learn when to use, limit, or refuse it—and what you are willing to pay.
-
----
-
-## Core Narrative Tools
-
-You don’t need the full rules to understand how these shape play.
+## Core Narrative Tools (High Level)
 
 ### Truths
 
-Concise, actionable facts—Collapsed Bridge, Trusted by the Locals, Fractured Resolve. Truths:
+Concise, actionable facts such as _Collapsed Bridge_, _Trusted by the Locals_, or _Fractured Resolve_.
 
-- Define what is possible
-- Create opportunities and obstacles
-- Change as the world changes
+Truths define what is possible, create opportunities and obstacles, and change as the world changes.
 
-When a Truth changes, the situation changes with it.
-
-### Momentum & Chaos
+### Momentum and Chaos
 
 Action creates pressure.
 
-- Momentum: advantage gained through preparation, teamwork, or decisive action.
-- Chaos: risk, complication, and escalation from failure, misuse of power, or ignored danger.
+- Momentum represents advantage gained through preparation and decisive action
+- Chaos represents escalation, complication, and fallout
 
-Neither is static. As Momentum rises, so does the temptation to push harder. As Chaos grows, the world pushes back.
+As Momentum rises, temptation grows. As Chaos spreads, the world pushes back.
 
 ### Hope
 
-A Seeker’s inner resolve—the reason to keep going when the cost becomes clear. Hope:
+A Seeker’s inner resolve. Hope is fragile, personal, and powerful. It can be spent to change outcomes and restored through connection, meaning, and hard-won victories.
 
-- Is personal and fragile
-- Can be spent to change outcomes
-- Is restored through meaning, connection, and hard-won victories
-
-Hope does not deny darkness; it insists action still matters.
+Hope does not deny darkness. It insists action still matters.
 
 ---
 
-## The Seeker’s Cycle (Session Rhythm)
+## Session Rhythm
 
-Most sessions follow a familiar pattern:
+Most sessions loosely follow this cycle:
 
-1. Investigate: learn what is wrong; gather information; surface hidden pressures.
-2. Journey: travel brings danger, discoveries, and choices that shape what comes next.
-3. Confront: face the core threat—an enemy, disaster, or unavoidable truth.
-4. Claim or Save: decide who benefits, what is preserved, and what is sacrificed.
-5. Return Changed: the world reflects what you’ve done; relationships shift; new Truths emerge.
+1. Investigate the problem and hidden pressures
+2. Journey through danger and discovery
+3. Confront a threat, disaster, or hard truth
+4. Claim or save something at a cost
+5. Return changed as the world responds
 
-Not a script—use, bend, break, and return to it as needed.
+This is a guide, not a script.
 
 ---
 
-## Digital‑First Platform
+## Digital-First Platform
 
-### Tech Stack
+This project is built as a living platform that evolves alongside the game.
 
-- React + Vite
-- React Router (nested routes, guarded app area)
-- Vanilla CSS (global, layout, nav, app shell, pages)
-- Static deploy via GitHub Pages
+**Tech overview:**
 
-### Project Structure (high‑level)
+- React with Vite
+- React Router with nested routes and guarded app areas
+- Vanilla CSS organized by responsibility
+- Static deployment via GitHub Pages
 
-- `src/main.jsx`: app bootstrap and router provider
-- `src/router.jsx`: route tree (marketing + protected app)
-- `src/app/layouts/*`: shared layouts for public and app views
-- `src/app/components/*`: UI components (nav, sidebar, footer, protected route)
-- `src/pages/*`: public pages, auth, and app views
-- `src/styles/*`: CSS files for global and shells
-- `public/icon.png`: site favicon
-- `vite.config.js`: base path and plugins
-- `package.json`: scripts and dependencies
+The codebase is structured to demonstrate clean routing, layout separation, and scalable front-end architecture. While this is a game project first, it also serves as a professional portfolio example of modern front-end development.
 
-### Local Development
+---
 
-Install and run:
+## Community and Support
 
-```bash
-npm install
-npm run dev
-```
+Light Omens is an independent project. Community support directly helps fund development, writing, art, and continued updates.
+
+- **Patreon:** https://www.patreon.com/c/EbonmaneInk
+- **Ko-fi:** https://ko-fi.com/ebonmane
+- **Discord:** https://discord.gg/9JgCtMznHe
+
+For press, partnerships, or general inquiries:  
+📧 **admin@ebonmane.com**
+
+---
+
+## Project Status
+
+This is an ashcan and early access project. Expect iteration, rough edges, and meaningful change driven by playtesting and feedback.
+
+Light Omens is still becoming what it will be.
