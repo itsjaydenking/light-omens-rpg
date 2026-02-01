@@ -6,12 +6,14 @@ import AppLayout from "./app/layouts/AppLayout.jsx";
 import ProtectedRoute from "./app/components/ProtectedRoute.jsx";
 
 import Home from "./pages/public/Home.jsx";
-// import Books from "./pages/public/Books.jsx";
+import Books from "./pages/public/Books.jsx";
 import Codex from "./pages/public/Codex.jsx";
 // import Stories from "./pages/public/Stories.jsx";
 import Roadmap from "./pages/public/Roadmap.jsx";
 // import About from "./pages/public/About.jsx";
 import Support from "./pages/public/Support.jsx";
+
+import BookReader from "./pages/public/BookReader.jsx";
 
 import Login from "./pages/auth/Login.jsx";
 import Signup from "./pages/auth/Signup.jsx";
@@ -28,7 +30,7 @@ export const router = createHashRouter([
     element: <MarketingLayout />,
     children: [
       { path: "/", element: <Home /> },
-      // { path: "/books", element: <Books /> },
+      { path: "/books", element: <Books /> },
       { path: "/codex", element: <Codex /> },
       // { path: "/stories", element: <Stories /> },
       { path: "/roadmap", element: <Roadmap /> },
@@ -36,6 +38,8 @@ export const router = createHashRouter([
       { path: "/support", element: <Support /> },
       { path: "/auth/login", element: <Login /> },
       { path: "/auth/signup", element: <Signup /> },
+      { path: "/books/:bookId", element: <BookReader /> },
+      { path: "/books/:bookId/:chapterId", element: <BookReader /> },
     ],
   },
   {
@@ -46,7 +50,7 @@ export const router = createHashRouter([
       </ProtectedRoute>
     ),
     children: [
-      { index: true, element: <Navigate to="/app/library" replace /> },
+      { index: true, element: <Navigate to="library" replace /> },
       { path: "library", element: <Library /> },
       { path: "characters", element: <Characters /> },
       { path: "characters/new", element: <CharacterNew /> },

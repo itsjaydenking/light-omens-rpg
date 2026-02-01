@@ -8,6 +8,7 @@ import "./styles/layout.css";
 import "./styles/nav.css";
 import "./styles/appShell.css";
 import "./styles/pages.css";
+import "./styles/reader.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
