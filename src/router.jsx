@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createHashRouter, Navigate } from "react-router-dom";
 
 import MarketingLayout from "./app/layouts/MarketingLayout.jsx";
 import AppLayout from "./app/layouts/AppLayout.jsx";
@@ -23,7 +23,7 @@ import Settings from "./pages/appViews/Settings.jsx";
 
 import NotFound from "./pages/NotFound.jsx";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     element: <MarketingLayout />,
     children: [
