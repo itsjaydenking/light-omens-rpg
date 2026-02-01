@@ -1,0 +1,133 @@
+.appShell {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  border-right: 1px solid var(--border);
+  background: #101321;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Brand (button or div) */
+.sidebar__brand {
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.sidebar__brandSub {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar__nav a {
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: var(--text);
+  opacity: 0.85;
+}
+
+.sidebar__nav a.active {
+  background: rgba(255, 255, 255, 0.06);
+  opacity: 1;
+}
+
+.sidebar__footer {
+  margin-top: auto;
+}
+
+/* Main */
+.appMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.appTopBar {
+  border-bottom: 1px solid var(--border);
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background: rgba(14, 15, 18, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+/* Top bar structure */
+.appTopBar__left {
+  display: grid;
+  gap: 2px;
+}
+
+.appTitle {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.appSubtitle {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.appTopBar__right {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Top bar slots */
+.topBarSlot {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 8px 10px;
+  min-width: 140px;
+}
+
+.slotLabel {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.slotValue {
+  font-size: 0.9rem;
+}
+
+.appContent {
+  padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .appShell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}

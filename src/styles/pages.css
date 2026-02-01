@@ -1,0 +1,27 @@
+.form {
+  display: grid;
+  gap: 12px;
+  max-width: 420px;
+  margin-top: 14px;
+}
+.form label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+}
+.form input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0f1220;
+  color: var(--text);
+}
+
+.page ul {
+  padding-left: 18px;
+  margin: 10px 0 0;
+}
+
+.page li {
+  margin-bottom: 6px;
+}

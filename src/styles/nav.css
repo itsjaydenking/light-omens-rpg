@@ -1,0 +1,50 @@
+.topNav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid var(--border);
+  background: rgba(14, 15, 18, 0.85);
+  backdrop-filter: blur(10px);
+}
+.topNav__inner {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+.topNav__links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.topNav__links a {
+  color: var(--text);
+  opacity: 0.85;
+}
+.topNav__links a.active {
+  opacity: 1;
+  text-decoration: underline;
+}
+.topNav__cta {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 0;
+}
+.footer__inner {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
