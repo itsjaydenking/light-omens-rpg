@@ -8,10 +8,12 @@ import ProtectedRoute from "./app/components/ProtectedRoute.jsx";
 import Home from "./pages/public/Home.jsx";
 import Books from "./pages/public/Books.jsx";
 import Codex from "./pages/public/Codex.jsx";
-// import Stories from "./pages/public/Stories.jsx";
+import Stories from "./pages/public/Stories.jsx";
+import StoryReader from "./pages/public/StoryReader.jsx";
 import Roadmap from "./pages/public/Roadmap.jsx";
 // import About from "./pages/public/About.jsx";
 import Support from "./pages/public/Support.jsx";
+import CodexEntry from "./pages/public/CodexEntry.jsx";
 
 import BookReader from "./pages/public/BookReader.jsx";
 
@@ -32,7 +34,10 @@ export const router = createHashRouter([
       { path: "/", element: <Home /> },
       { path: "/books", element: <Books /> },
       { path: "/codex", element: <Codex /> },
-      // { path: "/stories", element: <Stories /> },
+      { path: "/codex/:entryId", element: <CodexEntry /> },
+
+      { path: "/stories", element: <Stories /> },
+      { path: "/stories/:storyId", element: <StoryReader /> },
       { path: "/roadmap", element: <Roadmap /> },
       // { path: "/about", element: <About /> },
       { path: "/support", element: <Support /> },

@@ -9,6 +9,8 @@ import "./styles/nav.css";
 import "./styles/appShell.css";
 import "./styles/pages.css";
 import "./styles/reader.css";
+import "./styles/codex.css";
+import "./styles/builder.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -1,0 +1,182 @@
+.codexControls {
+  display: grid;
+  gap: 12px;
+  margin: 14px 0 10px;
+}
+
+.codexTabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.codexFilters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.input,
+.select {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-width: 220px;
+}
+
+.select {
+  min-width: 160px;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.chip--active {
+  background: rgba(255, 255, 255, 0.08);
+  opacity: 1;
+}
+
+.codexTags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tag {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+.tag:hover {
+  opacity: 1;
+}
+
+.codexCardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.codexBadges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.badge--ghost {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.codexEntryHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.codexEntryActions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.codexEntryTags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0 18px;
+}
+
+.codexEntryLayout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 16px;
+  align-items: start;
+}
+
+.codexEntryContent {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.codexEntrySide {
+  display: grid;
+  gap: 12px;
+}
+
+.sideCard {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.sideCardTitle {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.sideList {
+  display: grid;
+  gap: 10px;
+}
+
+.sideLink {
+  display: block;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.sideLink:hover {
+  opacity: 1;
+}
+
+.sideLinkTitle {
+  font-weight: 700;
+}
+
+.sideLinkMeta {
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .codexEntryLayout {
+    grid-template-columns: 1fr;
+  }
+}

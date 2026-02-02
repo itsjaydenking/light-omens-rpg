@@ -1,0 +1,117 @@
+.builderPage {
+  padding: 10px 0 50px;
+}
+
+.builderHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.builderHeaderActions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.builderLayout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 16px;
+  align-items: start;
+}
+
+.builderMain {
+  display: grid;
+  gap: 12px;
+}
+
+.builderStepper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.builderWarnings {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius);
+  padding: 12px;
+}
+
+.builderStepCard {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.builderStepTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.builderFields {
+  display: grid;
+  gap: 12px;
+}
+
+.fieldLabel {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.builderNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.builderPreview .sideCard {
+  position: sticky;
+  top: 84px;
+}
+
+.previewLine {
+  display: grid;
+  gap: 2px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+
+.previewLine:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.previewStatGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.previewStat {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+@media (max-width: 900px) {
+  .builderLayout {
+    grid-template-columns: 1fr;
+  }
+  .builderPreview .sideCard {
+    position: relative;
+    top: auto;
+  }
+}
