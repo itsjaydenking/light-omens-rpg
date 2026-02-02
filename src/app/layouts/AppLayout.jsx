@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import AppSidebar from "../components/AppSidebar.jsx";
 
 export default function AppLayout() {
@@ -9,7 +9,9 @@ export default function AppLayout() {
       <div className="appMain">
         <header className="appTopBar">
           <div className="appTopBar__left">
-            <div className="appTitle">Light Omens RPG</div>
+            <NavLink className="brand" to="/">
+              <div className="appTitle">Light Omens RPG</div>
+            </NavLink>
           </div>
           <div className="appTopBar__right">
             <div className="diceTrayPlaceholder">Dice Tray (Sprint 5)</div>
