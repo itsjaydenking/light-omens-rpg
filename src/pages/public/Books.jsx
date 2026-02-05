@@ -3,16 +3,15 @@ import { Link } from "react-router-dom";
 import { books } from "../../data/books/index.js";
 
 export default function Books() {
+  const sortedBooks = [...books].sort((a, b) => a.title.localeCompare(b.title));
+
   return (
     <div className="page">
-      <h1>Rulebooks</h1>
-      <p className="lead">
-        Browse the Light Omens rules and supplements. This library grows during
-        Early Access.
-      </p>
+      <h1>Rules</h1>
+      <p className="lead">Explore the rules of Light Omens</p>
 
       <div className="grid">
-        {books.map((book) => (
+        {sortedBooks.map((book) => (
           <div className="card" key={book.id}>
             <h2>{book.title}</h2>
             <p className="muted">{book.description}</p>

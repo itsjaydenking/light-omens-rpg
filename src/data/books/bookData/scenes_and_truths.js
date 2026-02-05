@@ -1,61 +1,42 @@
-export const coreBook = {
-  id: "core",
-  title: "Light Omens Core Rules",
-  subtitle: "Digital-First Ashcan",
+export const scenes_and_truths = {
+  id: "scenes_and_truths",
+  title: "Scenes and Truths",
+  subtitle: "Narrative Structure of Light Omens",
   description:
-    "The foundational mechanics, narrative tools, and play structure for Light Omens.",
+    "Go over the structure of Scenes and Truths, the core narrative tools of Light Omens.",
   version: "0.1",
-  updatedAt: "2026-02-01",
+  updatedAt: "2026-02-05",
 
   chapters: [
     {
-      id: "welcome",
-      title: "Welcome to Light Omens",
+      id: "scenes",
+      title: "Scenes for Light Omens",
       sections: [
         {
           id: "introduction",
-          title: "Introduction to the World of Light Omens",
+          title: "Introduction to Scenes and Truths",
           blocks: [
             {
               type: "p",
-              text: "Welcome to the realm of Light Omens, where light and shadow intertwine, forging destinies and reshaping the cultures of Hiraeth. A land reclaimed from the tyranny of primeval forces, Hiraeth bears the scars of its past; wars waged, empires toppled, and the energy of Grim Light that forever altered its fate.",
-            },
-            {
-              type: "p",
-              text: "Hiraeth was once a battlefield dominated by dragons, giants, and elemental forces that enslaved humanity. The arrival of the Grim Light shattered that cycle, empowering the Erathans to rise as heroes and liberators. Yet, their victory came at a cost: the world remains fractured, its peace fragile, and its lands haunted by both the remnants of its oppressors and the unintended consequences of its salvation.",
-            },
-            {
-              type: "p",
-              text: "For Seekers like you, Hiraeth is a canvas painted with hidden truths, untamed power, and the faint but unyielding glimmer of hope. Its landscapes tell stories of towering cities humming with latent energy, of wild frontiers marked by mystery, and of ruins that whisper the secrets of ancient civilizations.",
-            },
-            {
-              type: "p",
-              text: "Every corner of Hiraeth holds a challenge, and every shadow hides a choice.",
-            },
-            {
-              type: "list",
-              items: [
-                "Seek relics of the Grim Forges.",
-                "Navigate volatile faction alliances.",
-                "Survive the wilds and write your legend.",
-              ],
+              text: "A scene is the basic building block of any adventure. Shows, movies, and books also summarize these continuous action sequences. Scenes set the structure of Light Omens RPG. Each scene may cover a few minutes of an event up to an hour or so. The scene focuses on characters trying to achieve a goal or overcome a problem.",
             },
           ],
         },
         {
-          id: "tone-and-play",
-          title: "Tone and Play Style",
+          id: "setting-the-scene",
+          title: "Setting the Scene",
           blocks: [
             {
               type: "p",
-              text: "Light Omens supports a range of tones, from defiant hope to tragic endurance. Agree on a tone together and revisit it as the story evolves.",
+              text: "A scene begins with the Game Master (GM) explaining the situation. Scenes include where the characters are, what’s happening, and anything worth knowing.",
             },
             {
-              type: "list",
-              items: [
-                "Hopepunk: communities can be saved, small victories inspire change",
-                "Grimdark: survival is costly, power corrupts, hope must be fought for",
-              ],
+              type: "p",
+              text: "The scene only exists because the characters need to be there. The player characters (PCs) may ask questions about the situation to act on. The GM responds with location details or non-player character (NPC) actions.",
+            },
+            {
+              type: "p",
+              text: "A scene concludes when characters complete their intention or gain a new goal. A new scene begins immediately after one has finished and follows the narrative.",
             },
           ],
         },
@@ -63,8 +44,8 @@ export const coreBook = {
     },
 
     {
-      id: "core-concepts",
-      title: "Core Concepts",
+      id: "truths",
+      title: "Truths for Light Omens",
       sections: [
         {
           id: "seekers",

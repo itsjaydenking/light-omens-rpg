@@ -1,7 +1,9 @@
 import { coreBook } from "./coreBook.js";
+import { scenes_and_truths } from "./bookData/scenes_and_truths.js";
 
 export const books = [
   coreBook,
+  scenes_and_truths,
   {
     id: "lore-primer",
     title: "Lore Primer",
