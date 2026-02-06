@@ -78,6 +78,82 @@
   font-size: 0.9rem;
 }
 
+.readerTocDivider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  margin: 14px 0;
+}
+
+.readerTocSections {
+  display: grid;
+  gap: 8px;
+}
+
+.readerTocSectionGroup {
+  display: grid;
+  gap: 6px;
+}
+
+.readerTocSectionLink {
+  display: block;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text);
+  text-decoration: none;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.readerTocSectionLink:hover {
+  opacity: 1;
+}
+
+.readerTocSectionLink.active {
+  background: rgba(255, 255, 255, 0.06);
+  opacity: 1;
+}
+
+.readerTocSectionLink--chapter {
+  font-weight: 800;
+}
+
+.readerTocSubList {
+  display: grid;
+  gap: 6px;
+  padding-left: 10px;
+}
+
+.readerTocSubLink {
+  display: block;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.015);
+  color: var(--text);
+  text-decoration: none;
+  opacity: 0.82;
+  font-size: 0.9rem;
+}
+
+.readerTocSubLink:hover {
+  opacity: 1;
+}
+
+.readerTocSubLink.active {
+  background: rgba(255, 255, 255, 0.06);
+  opacity: 1;
+}
+
+.readerTocSectionGroup {
+  padding-bottom: 6px;
+}
+
+.readerTocSectionGroup:has(.readerTocSubList) .readerTocSectionLink {
+  background: rgba(255, 255, 255, 0.04);
+}
+
 .readerContent {
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.02);
@@ -155,6 +231,64 @@
 }
 
 .readerSectionTitle {
+  scroll-margin-top: 96px;
+}
+
+/* Chapter header block (strong separation) */
+.readerChapterHeader {
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.readerChapterTop {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.readerChapterTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.2px;
+}
+
+/* Sections already have separation via border-top — keep it */
+
+/* Subsections: a third level separation */
+.readerSubsections {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.14);
+}
+
+.readerSubsection {
+  padding: 12px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.readerSubsection:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.readerSubsectionHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.readerSubsectionTitle {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 800;
+  opacity: 0.95;
+}
+
+/* Ensure anchors jump below sticky header */
+.readerChapterHeader,
+.readerSectionTitle,
+.readerSubsectionTitle {
   scroll-margin-top: 96px;
 }
 
